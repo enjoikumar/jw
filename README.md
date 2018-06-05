@@ -9,3 +9,6 @@ getting images to render properly
 proper styling
 fonts
 getting the JW player properly aligned
+parsing json data
+
+error on the json data
