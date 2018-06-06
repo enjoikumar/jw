@@ -1,14 +1,24 @@
 import React, { Component } from 'react';
 import Data from '../data.json';
 
-console.log(Data)
+// console.log(Data)
+
+const left = Data.results[0].data.body[1].primary
+const right = Data.results[0].data.body[2].primary
+
+console.log(left.section_header[0].text)
+console.log(left.section_text[0].text)
+
+console.log(right.section_header[0].text)
+console.log(right.section_text[0].text)
+
 
 function ChartData(props) {
 	return(
 		<div className={props.class}>
 			<img src={props.url}/>
-			<p src={props.heading}></p>
-			<p src={props.para}></p>
+			<p className="heading">{props.heading}</p>
+			<p className="para">{props.para}</p>
 		</div>
 	)
 }
@@ -16,13 +26,29 @@ function ChartData(props) {
 class Chart extends Component {
 	render() {
 		return(
-			<div>
-			This is where the final portion would go
+			<div className="chart">
+				<ChartData 
+					class="chart1"
+					url={left.image.url}
+					heading={left.section_header[0].text}
+					para={left.section_text[0].text}
+				/>
 
-			<ChartData />
+				<ChartData 
+					class="chart2"
+					url={right.image.url}
+					heading={right.section_header[0].text}
+					para={right.section_text[0].text}
+				/>
 			</div>
 		)
 	}
 }
 
 export default Chart;
+
+
+
+// image- Data.results[0].data.body[1].primary.image.url
+// head- Data.results[0].data.body[1].primary.section_header[0].text
+// para- Data.results[0].data.body[1].primary.section_text[0].text
