@@ -5,6 +5,10 @@ body {
   background-color: papayawhip;
   font-family: 'Open Sans', sans-serif;
 }
+button a{
+	text-decoration: none;
+}
+
 
 .main{
   width: 100%;
@@ -143,23 +147,53 @@ body {
 }
 .section1 .title{
 	margin-top: 178px;
-	margin-left: 8%;
+	/*margin-left: 8%;*/
+	margin-left: 281px;
 	width: 104px;
 	height: 12px;
 	font-size: 15px;
+	font-weight: 400;
 }
 .section1 .bio{
-	display: none;
+	margin-top: 211px;
+	width: 220px;
+	height: 73px;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 19px;
+	color: #aab4c8;
 }
 .section1 .best{
-	display: none;
+	margin-top: 333px;
+	margin-left: 300px;
+	width: 66px;
+	height: 12px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 27px;
+	color: #aab4c8;
 }
 .section1 .list{
-	display: none;
+	list-style-type: none;
+	width: 128px;
+	height: 36px;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 400;
+	margin-top: 359px;
+	margin-left: 269px;
 }
 .section1 button{
-	display: none;
+	width: 121px;
+	height: 35px;
+	border-radius: 3px;
+	background-color: #ff0040;
+	color: white;
+	margin-top: 428px;
+	margin-left: 273px;
+	border: none;
 }
+
 
 
 
