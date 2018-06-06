@@ -2,16 +2,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: papayawhip;
+  /*background-color: papayawhip;*/
+  font-family: 'Open Sans', sans-serif;
 }
 
-.main{
+button a {
+  text-decoration: none;
+}
+
+.main {
   width: 100%;
   height: 845px;
 }
 
-.nav{
-  font-family: 'Open Sans', sans-serif;
+.nav {
+  font-weight: 600;
   position: absolute;
   color: white;
   font-size: 13px;
@@ -21,21 +26,19 @@ body {
   margin-top: 37px;
   overflow: hidden;
   float: left;
+  p {
+    display: inline-block;
+    margin-left: 33px;
+    cursor: pointer;
+  }
+  img {
+    width: 104px;
+    height: 37px;
+  }
 }
-.nav p{
-  display: inline-block;
-  margin-left: 33px;
-  cursor: pointer;
-}
 
-.nav img{
-  width: 104px;
-  height: 37px;
- }
-
-
-.othernav{
-  font-family: 'Open Sans', sans-serif;
+.othernav {
+  font-weight: 600;
   position: absolute;
   color: white;
   font-size: 12px;
@@ -44,79 +47,157 @@ body {
   right: 30px;
   margin-top: 35px;
   cursor: pointer;
+  p {
+    display: inline-block;
+    margin-right: 15px;
+    opacity: .7;
+  }
+  button {
+    background-color: #ff0046;
+    width: 126px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
 }
 
-.othernav p{
-  display: inline-block;
-  margin-right: 15px;
-  opacity: .7;
-}
-
-.othernav button{
-  background-color: #ff0046;
-  width: 126px;
-  height: 40px;
-  text-decoration: none;
-  color: white;
-  border: none;
-  border-radius: 3px;
-}
-.othernav button a{
-  text-decoration: none;
-  color: white;
-}
-
-.vIcon{
+.vIcon {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-left: 60px;
   width: 40%;
-  font-family: 'Open Sans', sans-serif;
-}
-.vIcon img{
-  margin-top: -56%;
-  margin-left: 2%;
-  width: 37px;
-  height: 37px;
-  position: absolute;
-}
-.vIcon p{
-   margin-top: -57%;
-   margin-left: 7%;
-  font-size: 46px;
-  width: 318px;
-  height: 35px;
-  color: white;
-  position: absolute;
-}
-.vIcon .biLine{
-  margin-top: -650px;
-  width: 544px;
-  height: 21px;
-  font-size:20px;
-  display: block;
-  margin-left: -60px;
+  font-weight: 600;
+  img {
+    margin-top: -56%;
+    margin-left: 4%;
+    width: 37px;
+    height: 37px;
+    position: absolute;
+  }
+  p {
+    margin-top: -57%;
+    margin-left: 9%;
+    font-size: 46px;
+    width: 318px;
+    height: 35px;
+    color: white;
+    position: absolute;
+  }
+  .biLine {
+    margin-top: -650px;
+    width: 544px;
+    height: 21px;
+    font-size: 20px;
+    display: block;
+    margin-left: 0px;
+  }
 }
 
-.HeroImage button{
-  background-color: #ffffff;
-  width: 129px;
-  height: 35px;
-  text-decoration: none;
-  color: black;
-  border: none;
-  border-radius: 3px;
-  display: block;
-  margin-left: 11%;
-  margin-right: auto;
-  position: absolute;
-  margin-top: -46.5%;
+.HeroImage {
+  button {
+    background-color: #ffffff;
+    width: 129px;
+    height: 35px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    margin-left: 11%;
+    margin-right: auto;
+    position: absolute;
+    margin-top: -46.5%;
+  }
+  img {
+    width: 896px;
+    height: 540px;
+    margin-left: -20%;
+    position: absolute;
+    margin-top: -41.8%;
+  }
 }
-.HeroImage img{
-  width: 896px;
-  height: 540px;
-  margin-left: -20%;
-  position: absolute;
-  margin-top: -41.8%;
+
+.middle {
+  background-color: #465371;
+  width: 100%;
+  height: 553px;
+  margin-top: -27px;
+  p {
+    display: block;
+    font-weight: 400;
+    font-size: 23px;
+    color: white;
+    position: absolute;
+    margin-top: 74px;
+    margin-left: 18.5%;
+  }
+}
+
+.section1 {
+  /*display: none;*/
+}
+
+.section2 {
+  margin-top: -463px;
+  margin-left: 300px;
+}
+
+.section1 .title, .section2 .title {
+  margin-top: 178px;
+  /*margin-left: 8%;*/
+  margin-left: 281px;
+  width: 104px;
+  height: 12px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.section1 .bio, .section2 .bio {
+  margin-top: 211px;
+  width: 220px;
+  height: 73px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #aab4c8;
+}
+
+.section1 .best, .section2 .best {
+  margin-top: 333px;
+  margin-left: 300px;
+  width: 66px;
+  height: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 27px;
+  color: #aab4c8;
+}
+
+.section1 .list, .section2 .list {
+  list-style-type: none;
+  width: 128px;
+  height: 36px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 359px;
+  margin-left: 269px;
+}
+
+.section1 button, .section2 button {
+  width: 121px;
+  height: 35px;
+  border-radius: 3px;
+  background-color: #ff0040;
+  color: white;
+  margin-top: 428px;
+  margin-left: 273px;
+  border: none;
 }

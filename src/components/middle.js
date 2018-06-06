@@ -4,7 +4,8 @@ import Data from '../data.json';
 const heading4 = Data.results[0].data.body[0].primary.features_header[0].text;
 
 const item1 = Data.results[0].data.body[0].items[0]
-
+const item2 = Data.results[0].data.body[0].items[1]
+const item3 = Data.results[0].data.body[0].items[2]
 
 function MiddleList(props) {
 	return(
@@ -44,6 +45,29 @@ class Middle extends Component {
 					urls = {item1.button.url}
 					button = {item1.button.text}
 				/>
+
+				<MiddleList
+					class="section2"
+					title = {item2.feature_title[0].text}
+					bio = {item2.feature_description[0].text}
+					best = {item2.list_header[0].text}
+					list1 = {item2.list[0].text}
+					list2 = {item2.list[1].text}
+					urls = {item2.button.url}
+					button = {item2.button.text}
+				/>
+
+				<MiddleList
+					class="section3"
+					title = {item3.feature_title[0].text}
+					bio = {item3.feature_description[0].text}
+					best = {item3.list_header[0].text}
+					list1 = {item3.list[0].text}
+					list2 = {item3.list[1].text}
+					urls = {item3.button.url}
+					button = {item3.button.text}
+				/>
+
 
 			</div>
 		);
