@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-color: papayawhip;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .main{
@@ -11,7 +12,6 @@ body {
 }
 
 .nav{
-  font-family: 'Open Sans', sans-serif;
   font-weight:600;
   position: absolute;
   color: white;
@@ -36,7 +36,6 @@ body {
 
 
 .othernav{
-  font-family: 'Open Sans', sans-serif;
   font-weight:600;
   position: absolute;
   color: white;
@@ -74,7 +73,6 @@ body {
   margin-right: auto;
   padding-left: 60px;
   width: 40%;
-  font-family: 'Open Sans', sans-serif;
   font-weight:600;
 }
 .vIcon img{
@@ -133,7 +131,6 @@ body {
 
 .middle p{
 	display: block;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 23px;
 	color: white;
@@ -141,6 +138,30 @@ body {
 	margin-top: 74px;
 	margin-left: 18.5%;
 }
+
+.section1{
+}
+.section1 .title{
+	margin-top: 178px;
+	margin-left: 8%;
+	width: 104px;
+	height: 12px;
+	font-size: 15px;
+}
+.section1 .bio{
+	display: none;
+}
+.section1 .best{
+	display: none;
+}
+.section1 .list{
+	display: none;
+}
+.section1 button{
+	display: none;
+}
+
+
 
 
 
