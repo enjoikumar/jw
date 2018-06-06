@@ -72,14 +72,14 @@ body {
 }
 .vIcon img{
 	margin-top: -56%;
-	margin-left: 3%;
+	margin-left: 2%;
 	width: 37px;
 	height: 37px;
 	position: absolute;
 }
 .vIcon p{
 	 margin-top: -57%;
-	 margin-left: 8.5%;
+	 margin-left: 7%;
 	font-size: 46px;
 	width: 318px;
 	height: 35px;
@@ -87,13 +87,12 @@ body {
   position: absolute;
 }
 .vIcon .biLine{
-	margin-top: -620px;
+	margin-top: -640px;
 	width: 544px;
 	height: 21px;
 	font-size:20px;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
+	margin-left: -60px;
 }
 
 .HeroImage button{
@@ -104,10 +103,18 @@ body {
 	color: black;
 	border: none;
 	border-radius: 3px;
+	display: block;
+	margin-left: 11%;
+  margin-right: auto;
+  position: absolute;
+  margin-top: -45%;
 }
 .HeroImage img{
 	width: 896px;
 	height: 540px;
+	margin-left: -20%;
+  position: absolute;
+  margin-top: -41.8%;
 }
 
 
