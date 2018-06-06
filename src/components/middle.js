@@ -8,9 +8,13 @@ const innerButton = Data.results[0].data.button.text
 function MiddleList(props) {
 	return(
 		<div>
-			{props.name}
+			<p>{props.title}</p>
+			<p>{props.bio}</p>
+			<p>{props.best}</p>
+			<p>{props.info}</p>
+			<button>{props.button}</button>
 		</div>
-	)
+	);
 }
 
 
@@ -23,11 +27,8 @@ class Middle extends Component {
 				</div>
 
 				<MiddleList 
-					name={innerButton}
 				/>
-				<MiddleList 
-					name={innerButton}
-				/>
+
 			</div>
 		);
 	}

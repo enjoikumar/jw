@@ -20,7 +20,6 @@ export default HeroImage;
 
 
 
-
 // console.log(Data.results[0].data.header_group[0].icon.url)
 // console.log(Data.results[0].data.hero_image.url)
 // console.log(Data.results[0].data.button.text)

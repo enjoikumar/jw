@@ -79,14 +79,14 @@ body {
 }
 .vIcon img{
 	margin-top: -56%;
-	margin-left: 2%;
+	margin-left: 4%;
 	width: 37px;
 	height: 37px;
 	position: absolute;
 }
 .vIcon p{
 	 margin-top: -57%;
-	 margin-left: 7%;
+	 margin-left: 9%;
 	font-size: 46px;
 	width: 318px;
 	height: 35px;
@@ -99,7 +99,7 @@ body {
 	height: 21px;
 	font-size:20px;
 	display: block;
-	margin-left: -60px;
+	margin-left: 0px;
 }
 
 .HeroImage button{
