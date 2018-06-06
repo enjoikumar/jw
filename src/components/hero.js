@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Data from '../data.json';
 
-console.log(Data)
+// console.log(Data)
 
 const innerButton = Data.results[0].data.button.text
 

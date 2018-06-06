@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import Data from '../data.json';
 
-// console.log(Data)
-
-const innerButton = Data.results[0].data.button.text
+const heading4 = Data.results[0].data.body[0].primary.features_header[0].text;
 
 function MiddleList(props) {
 	return(
@@ -23,7 +21,7 @@ class Middle extends Component {
 		return (
 			<div className="middle">
 				<div>
-					<p>Lorem ipsum dolor sit amer, consectetur adipiscing elit.</p>
+					<p>{heading4}</p>
 				</div>
 
 				<MiddleList 
@@ -35,3 +33,10 @@ class Middle extends Component {
 }
 
 export default Middle;
+
+
+// console.log(Data)
+
+// console.log(Data.results[0].data.body[0].primary.features_header[0].text)
+
+// const innerButton = Data.results[0].data.button.text
