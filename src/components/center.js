@@ -13,7 +13,7 @@ class Center extends Component {
 	render() {
 		return (
 			<div className="vIcon">
-				<img src={Data.results[0].data.header_group[0].icon.url} />
+				<img src={Data.results[0].data.header_group[0].icon.url} alt="cloud"/>
 				<p>LOREM IPSUM</p>
 				<p className="biLine">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				<HeroImage />

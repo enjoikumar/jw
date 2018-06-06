@@ -61,6 +61,10 @@ body {
 	border: none;
 	border-radius: 3px;
 }
+.othernav button a{
+	text-decoration: none;
+	color: white;
+}
 
 .vIcon{
 	display: block;
@@ -87,7 +91,7 @@ body {
   position: absolute;
 }
 .vIcon .biLine{
-	margin-top: -640px;
+	margin-top: -650px;
 	width: 544px;
 	height: 21px;
 	font-size:20px;
@@ -107,7 +111,7 @@ body {
 	margin-left: 11%;
   margin-right: auto;
   position: absolute;
-  margin-top: -45%;
+  margin-top: -46.5%;
 }
 .HeroImage img{
 	width: 896px;
