@@ -67,8 +67,6 @@ class Middle extends Component {
 					urls = {item3.button.url}
 					button = {item3.button.text}
 				/>
-
-
 			</div>
 		);
 	}

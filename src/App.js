@@ -8,6 +8,7 @@ import Othernav from './components/othernav';
 import Main from './components/main';
 import Center from './components/center';
 import Middle from './components/middle';
+import Chart from './components/chart';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
       	<Main />
       	<Center/>
       	<Middle />
+      	<Chart />
       </div>
     )
   }
