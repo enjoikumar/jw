@@ -12,7 +12,8 @@ console.log(Data)
 class HeroImage extends Component {
 	render() {
 		return (
-			<div>
+			<div className="HeroImage">
+				<button>GET STARTED</button>
 				<img src={Data.results[0].data.hero_image.url}/>
 			</div>
 		);

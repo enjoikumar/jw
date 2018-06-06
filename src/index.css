@@ -96,7 +96,19 @@ body {
   margin-right: auto;
 }
 
-
+.HeroImage button{
+	background-color: #ffffff;
+	width: 129px;
+	height: 35px;
+	text-decoration: none;
+	color: black;
+	border: none;
+	border-radius: 3px;
+}
+.HeroImage img{
+	width: 896px;
+	height: 540px;
+}
 
 
 
