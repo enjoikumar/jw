@@ -8,8 +8,6 @@ import Othernav from './components/othernav';
 import Main from './components/main';
 import Center from './components/center'
 
-import data from './data.json'
-
 class App extends Component {
   render() {
     return (
@@ -17,7 +15,7 @@ class App extends Component {
       	<Nav/>
       	<Othernav/>
       	<Main />
-      	<Center data={data}/>
+      	<Center/>
       </div>
     )
   }
