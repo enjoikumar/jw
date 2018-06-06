@@ -12,3 +12,5 @@ getting the JW player properly aligned
 parsing json data
 
 error on the json data
+
+inputting almost the same data, finding the easiest way to do it

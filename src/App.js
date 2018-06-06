@@ -6,7 +6,8 @@ import './App.css';
 import Nav from './components/nav';
 import Othernav from './components/othernav';
 import Main from './components/main';
-import Center from './components/center'
+import Center from './components/center';
+import Middle from './components/middle';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
       	<Othernav/>
       	<Main />
       	<Center/>
+      	<Middle />
       </div>
     )
   }
