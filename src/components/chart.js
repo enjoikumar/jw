@@ -17,7 +17,7 @@ function ChartData(props) {
 	return(
 		<div className={props.class}>
 			<img src={props.url}/>
-			<p className="heading">{props.heading}</p>
+			<p className="heading">{props.heading.toUpperCase()}</p>
 			<p className="para">{props.para}</p>
 		</div>
 	)
