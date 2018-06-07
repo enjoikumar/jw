@@ -37,6 +37,10 @@
 }
 */
 @media only screen and (max-width: 414px){
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   .nav img{
     width: 60px;
     height: 30px;
@@ -212,8 +216,125 @@
 
 
 @media only screen and (width:375px){
-  .main, .othernav, .HeroImage,
-  .vIcon, .middle, .chart, .footer{
-    display: none;
+  .nav{
+    font-size: 11px;
+    margin-left: -3%;
+  }
+  .othernav{
+    font-size: 10px;
+    margin-left: 10%;
+  }
+  .othernav button{
+    width: 80px;
+    height: 25px;
+    font-size: 9px;
+    margin-left: 38%;
+  }
+
+  .vIcon img{
+    margin-top: -112%;
+  }
+  .vIcon p{
+    margin-top: -112%;
+  }
+  .vIcon .biLine{
+    margin-top: -99%;
+    margin-left: -29%;
+  }
+  .vIcon button{
+    width: 80px;
+    height: 25px;
+    font-size: 9px;
+    margin-top: -80%;
+    margin-left: 3%;
+  }
+
+  .HeroImage button{
+    margin-top: -90%;
+  }
+  .HeroImage img{
+    margin-top: -70%;
+    margin-left: -26%;
+  }
+
+  .section1 .best{
+    margin-top: 75%;
+  }
+  .section1 .list{
+    margin-top: 82%;
+  }
+  .section1 button{
+    margin-top: 84%;
+  }
+
+  .section2 .title{
+    margin-left: -65%;
+    margin-top: 140%;
+  }
+  .section2 .bio{
+    margin-left: -65%;
+    margin-top: 149%;
+  }
+  .section2 .best{
+    margin-left: -65%;
+    margin-top: 174%;
+  }
+  .section2 .list{
+    margin-left: -65%;
+    margin-top: 182.5%;
+  }
+  .section2 button{
+    margin-top: 730%;
+  }
+
+  .section3 .title{
+    margin-left: -142%;
+    margin-top: 145%;
+  }
+  .section3 .bio{
+    margin-left: -142%;
+    margin-top: 154%;
+  }
+  .section3 .best{
+    margin-left: -142%;
+    margin-top: 180%;
+  }
+  .section3 .list{
+    margin-left: -142%;
+    margin-top: 189%;
+  }
+  .section3 button{    
+    margin-top: 720px;
+  }
+
+  .chart1 img{
+    margin-left: 3%;
+  }
+  .chart1 .heading{
+    margin-left: 13%;
+  }
+  .chart1 .para{
+    margin-left: 13%;
+  }
+
+  .chart2 img{
+    margin-top: 75%;
+  }
+  .chart2 .heading{
+    margin-left: 13%;
+  }
+  .chart2 .para{
+    margin-left: 13%;
+  }
+
+  .footer{
+    margin-top: 90%;
+  }
+  .footer .first{
+    margin-left: 2%;
   }
 }
+
+
+
+
