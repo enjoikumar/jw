@@ -26,3 +26,18 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+
+@media only screen and (width: 768px){
+
+}
+
+@media only screen and (max-width: 414px){
+  body{
+  }
+}
+
+
+@media only screen and (width:375px){
+}

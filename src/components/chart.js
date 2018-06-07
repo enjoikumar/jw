@@ -1,22 +1,13 @@
 import React, { Component } from 'react';
 import Data from '../data.json';
 
-// console.log(Data)
-
 const left = Data.results[0].data.body[1].primary
 const right = Data.results[0].data.body[2].primary
-
-console.log(left.section_header[0].text)
-console.log(left.section_text[0].text)
-
-console.log(right.section_header[0].text)
-console.log(right.section_text[0].text)
-
 
 function ChartData(props) {
 	return(
 		<div className={props.class}>
-			<img src={props.url}/>
+			<img src={props.url} alt="cimg"/>
 			<p className="heading">{props.heading.toUpperCase()}</p>
 			<p className="para">{props.para}</p>
 		</div>
@@ -52,3 +43,9 @@ export default Chart;
 // image- Data.results[0].data.body[1].primary.image.url
 // head- Data.results[0].data.body[1].primary.section_header[0].text
 // para- Data.results[0].data.body[1].primary.section_text[0].text
+
+// console.log(left.section_header[0].text)
+// console.log(left.section_text[0].text)
+
+// console.log(right.section_header[0].text)
+// console.log(right.section_text[0].text)

@@ -9,6 +9,7 @@ import Main from './components/main';
 import Center from './components/center';
 import Middle from './components/middle';
 import Chart from './components/chart';
+import Footer from './components/footer';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
       	<Center/>
       	<Middle />
       	<Chart />
+      	<Footer />
       </div>
     )
   }

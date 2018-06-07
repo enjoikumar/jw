@@ -284,6 +284,28 @@ button a{
 	margin-top: -160px;
 }
 
+.footer{
+	width: 100%;
+	height: 50px;
+	background-color: #e1e5ec;
+}
+.footer .first{
+	position: absolute;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-left: 161px;
+}
+.footer .side{
+	position: absolute;
+	font-size: 12px;
+	margin-left: 750px;
+	margin-top: 8px;
+}
+.footer .side p{
+	display: inline-block;
+	padding-left: 30px;
+}
+
 
 
 
