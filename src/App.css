@@ -30,14 +30,48 @@
 
 
 @media only screen and (width: 768px){
+  .main, .othernav, .HeroImage,
+  .vIcon, .middle, .chart, .footer{
+    display: none;
+  }
 
 }
 
 @media only screen and (max-width: 414px){
   body{
+    background-color: papayawhip;
   }
+  .HeroImage,
+  .vIcon, .middle, .chart, .footer{
+    display: none;
+  }
+
+  .nav img{
+    width: 60px;
+    height: 30px;
+  }
+  .othernav{
+    margin-top: 80px;
+    margin-left: 9%;
+  }
+  .othernav button{
+    width: 80px;
+    height: 25px;
+    font-size: 9px;
+    margin-left: 38%;
+  }
+
+  .main{
+    height: 600px;
+  }
+
+
 }
 
 
 @media only screen and (width:375px){
+  .main, .othernav, .HeroImage,
+  .vIcon, .middle, .chart, .footer{
+    display: none;
+  }
 }
