@@ -29,20 +29,18 @@
 
 
 
-@media only screen and (width: 768px){
+/*@media only screen and (width: 768px){
   .main, .othernav, .HeroImage,
   .vIcon, .middle, .chart, .footer{
     display: none;
   }
-
 }
-
+*/
 @media only screen and (max-width: 414px){
   body{
     background-color: papayawhip;
   }
-  .HeroImage,
-  .vIcon, .middle, .chart, .footer{
+  .middle, .chart, .footer{
     display: none;
   }
 
@@ -51,7 +49,7 @@
     height: 30px;
   }
   .othernav{
-    margin-top: 80px;
+    margin-top: 16%;
     margin-left: 9%;
   }
   .othernav button{
@@ -60,11 +58,40 @@
     font-size: 9px;
     margin-left: 38%;
   }
-
   .main{
     height: 600px;
   }
 
+  .vIcon img{
+    width: 7%;
+    height: 37px;
+    margin-top: -98%;
+    margin-left: -10%;
+  }
+  .vIcon p{
+    margin-top: -98%;
+    margin-left: 0%;
+    font-size: 24px;
+  }
+  .vIcon .biLine{
+    margin-top: -88%;
+    margin-left: -26%;
+    font-size: 14px;
+  }
+  .vIcon button{
+    width: 80px;
+    height: 25px;
+    font-size: 9px;
+    margin-top: -80%;
+    margin-left: 3%;
+  }
+
+  .HeroImage img{
+    width: 75%;
+    height: 250px;
+    margin-top: -65%;
+    margin-left: -25%;
+  }
 
 }
 
