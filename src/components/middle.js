@@ -32,7 +32,7 @@ class Middle extends Component {
 		return (
 			<div className="middle">
 				<div>
-					<p>{heading4}</p>
+					<p className="heading">{heading4}</p>
 				</div>
 
 				<MiddleList
@@ -45,7 +45,7 @@ class Middle extends Component {
 					urls = {item1.button.url}
 					button = {item1.button.text}
 				/>
-
+				
 				<MiddleList
 					class="section2"
 					title = {item2.feature_title[0].text}
